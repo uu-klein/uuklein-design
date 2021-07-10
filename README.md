@@ -6,9 +6,6 @@
 -->
 # uuklein-design
 使用lerna rollup react storybook 打造属于自己的react-Ui组件库(JS版本)
-https://uu-klein.github.io/uuklein-design/
-
-
 
 # 使用
     yarn setup       为各个模块安装依赖
