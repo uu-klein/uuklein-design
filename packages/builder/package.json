@@ -1,0 +1,42 @@
+{
+  "name": "@uuklein/builder",
+  "version": "1.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "383583271@qq.com <383583271@qq.com>",
+  "homepage": "https://github.com/uu-klein/uuklein-design/tree/main/packages/builder#readme",
+  "license": "ISC",
+  "main": "lib/builder.js",
+  "bin": {
+    "uuklein-builder": "lib/builder.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uu-klein/uuklein-design.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/uu-klein/uuklein-design/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.52.2",
+    "rollup-plugin-postcss": "^3.1.1"
+  }
+}

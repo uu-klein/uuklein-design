@@ -1,0 +1,35 @@
+{
+  "name": "uuklein-design",
+  "version": "1.0.0",
+  "description": "使用lerna rollup react storybook 打造属于自己的react-Ui组件库(JS版本)",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna run build",
+    "storybook": "start-storybook -p 5001",
+    "build-storybook": "build-storybook",
+    "setup": "npm install && lerna bootstrap",
+    "deploy": "npm run build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uu-klein/uuklein-design.git"
+  },
+  "keywords": [],
+  "author": "Klein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uu-klein/uuklein-design/issues"
+  },
+  "homepage": "https://github.com/uu-klein/uuklein-design#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "@babel/core": "^7.10.1",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0"
+  }
+}
